@@ -1,0 +1,65 @@
+.avatar {
+  max-width: 25em;
+}
+main {
+  background-color: black;
+}
+.avatar-wrapper {
+  padding: 0 2em 0 0;
+}
+article {
+  margin-top: 100px;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+div,
+span,
+input,
+path {
+  color: #fdec00;
+}
+p::selection,
+h1::selection,
+h2::selection,
+h3::selection,
+h4::selection,
+h5::selection,
+h6::selection,
+a::selection,
+div::selection,
+span::selection,
+input::selection,
+path::selection {
+  color: black;
+  background: #fdec00;
+}
+input::after {
+  border-left: 0.5em solid #fdec00 !important;
+}
+ol.inverted > li::before {
+  background: #fdec00 !important;
+  color: black !important;
+}
+.page {
+  background-color: black;
+}
+.divider.fat {
+  border-color: #fdec00;
+}
+.name,
+.job {
+  text-align: end;
+}
+.contacts {
+  flex-direction: column;
+  padding: 5px;
+  border: 1px solid #fdec00;
+  max-width: max-content;
+  margin-left: auto;
+}
